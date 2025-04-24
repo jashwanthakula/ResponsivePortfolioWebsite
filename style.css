@@ -49,7 +49,7 @@ body {
 
 .navbar a {
     font-size: 18px;
-    color: #fff;
+    color: var(--main-color);
     text-decoration: none;
     font-weight: 500;
     margin-left: 25px;
@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 100px 7% 40px;
+    padding: 120px 7% 40px;
     gap: 40px;
 }
 
@@ -202,7 +202,7 @@ body {
     .home {
         flex-direction: column;
         text-align: center;
-        padding-top: 100px;
+        padding: 140px 7% 40px;
     }
 
     .navbar {
